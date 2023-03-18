@@ -26,7 +26,7 @@
  
 #include <linux/if_packet.h>
  
-#include <asm/pgtable_types.h>
+#include <asm-generic/pgtable_types.h>
  
 //#define    DEBUG
  
