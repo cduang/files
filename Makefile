@@ -1,6 +1,3 @@
-MODULE_NAME := virt2phys
-RESMAN_CORE_OBJS:=virt2phys.o
-RESMAN_GLUE_OBJS:=
 ifneq ($(KERNELRELEASE),)
 obj-m :=virt2phys.o
 else
